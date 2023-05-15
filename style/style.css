@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+nav{
+    display: flex;
+    background-color: blue;
+    position: sticky;
+    padding: 2%;
+    font-size: 30px;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+    /* max-width: 1200px; */
+    /* margin: auto; */
+    font-family: sans-serif;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.logo{
+    margin-right: 100px;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.hello-section{
+    background-image: url(img/1.jpg);
+    height: 120vh;
+    background-size: cover;
+}
+.good1{
+    color: aliceblue;
+    	text-align: center;
+    position: relative;
+    top: 150px;
+    max-width: 1200px;
+    margin: auto;
+    font-size: large;
+        
+        
+}
+.good1 h1{
+    font-size: 80px;   
+}
+
+.good1 h3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.start{
+    color: white;
+    background-color: red;
+    height: 35px;
+    width: 150px;
+}
+
+.music-section{
+    background-color: #281154;
+    
+    
+}
+
+.about-music{
+    padding-top: 300px;
+    text-align: center;
+
+}
+
+.second{
+    color: white;
+    background-color: blue;
+    height: 30px;
+    width: 80px;
+}
+
+.video{
+    background-image: url(img/video.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.ha{
+    font-family: sans-serif;
+}
+.haa{
+    color: gray;
+}
+
+.good2{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gift{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.gift_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: sans-serif;
+}
+.rem{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.footer-upper{
+    position: relative;
+    background-color: #281154;
+    padding: 20px;
+}
+.footer-upper .good{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-upper h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: none ;
+}
+
+.good{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-lower{
+    background-color: #270082;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-lower p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
